@@ -1,0 +1,716 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>仿美丽说网</title>
+		<link rel="stylesheet" type="text/css" href="css/gogolei.css" />
+		<link rel="stylesheet" type="text/css" href="css/美丽说.css" />
+		<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+	</head>
+	<body>
+		<div class="box">
+			<!-- 头部导航栏 -->
+			<div class="top">
+				<div class="top_hz">
+					<ul class="top_text">
+
+						<li class="top_1">
+							<a href="" class="top_logo"><span></span>微信登录</a>
+						</li>
+						<span class="bian"></span>
+						<li class="top_2">
+							<a href="" class="top_logo_2"><span></span>QQ登录</a>
+						</li>
+						<span class="bian"></span>
+						<li class="top_3">
+							<a href="" class="top_logo_3">登录</a>
+						</li>
+						<span class="bian"></span>
+						<li class="top_4">
+							<a href="" class="top_logo_4">注册</a>
+						</li>
+						<span class="bian"></span>
+						<li class="top_5">
+							<a href="" class="top_logo_5"><span></span>我的收藏
+							</a>
+							<div class="top_bzxl1">
+								<a href="" class="top_bzxl_wz2">收藏宝贝</a>
+								<a href="" class="top_bzxl_wz2">收藏店铺</a>
+							</div>
+						</li>
+						<span class="bian"></span>
+						<li class="top_6">
+							<a href="" class="top_logo_6"><span></span>我的购物车</a>
+						</li>
+						<span class="bian"></span>
+						<li class="top_7">
+							<a href="" class="top_logo_7"><span></span>我的订单</a>
+						</li>
+						<span class="bian"></span>
+						<li class="top_8">
+							<a href="" class="top_logo_8">帮助中心<span></span>
+							</a>
+							<div class="top_bzxl">
+								<a href="" class="top_bzxl_wz1">卖家服务</a>
+								<a href="" class="top_bzxl_wz1">商家服务</a>
+								<a href="" class="top_bzxl_wz1">规则中心</a>
+							</div>
+						</li>
+						<span class="bian"></span>
+						<li class="top_9">
+							<a href="" class="top_logo_2">商家后台</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<!-- 导航栏 -->
+			<div class="nav_yi">
+				<ul class="nav_yi_left_hz">
+					<li class="nav_yi_eft_logo">
+						<img src="img/logo.png">
+					</li>
+					<ul class="nav_yi_top_hz">
+						<li class="nav_yi_top_wz"><a href="#" class="nav_yi_top_wz1">宝贝</a>
+						<li></li>
+						<li class="nav_yi_top_wz"><a href="#">店铺</a></li>
+						<li class="nav_yi_input">
+							<input type="text" />
+							<a href="" class="nav_yi_input_so"></a>
+						</li>
+						<li class="nav_yi_input_wz">
+							<a href="" class="nav_yi_input_wz1">连衣裙</a>
+							<a href="" class="nav_yi_input_wz2">运动鞋</a>
+							<a href="" class="nav_yi_input_wz1">雪纺衫</a>
+							<a href="" class="nav_yi_input_wz1">衬衫</a>
+							<a href="" class="nav_yi_input_wz2">薄外套</a>
+							<a href="" class="nav_yi_input_wz2">T恤</a>
+							<a href="" class="nav_yi_input_wz2">套装</a>
+							<a href="" class="nav_yi_input_wz2">牛仔裤</a>
+							<a href="" class="nav_yi_input_wz1">小白鞋</a>
+							<a href="" class="nav_yi_input_wz2">风衣</a>
+							<a href="" class="nav_yi_input_wz1">绑带凉鞋</a>
+							<a href="" class="nav_yi_input_wz3">粗跟单鞋</a>
+						</li>
+					</ul>
+					<li class="nav_right_logo"></li>
+				</ul>
+			</div>
+
+			<script type="text/javascript">
+				var nav_a = document.querySelectorAll(".nav_yi_top_wz a");
+				var nav_lis = document.querySelectorAll("nav_yi_top_wz")
+				for (i = 0; i < nav_a.length; i++) {
+					nav_a[i].onclick = function() {
+						for (j = 0; j < nav_a.length; j++) {
+							nav_a[j].removeAttribute("class");
+						}
+						this.className = "nav_yi_top_wz1";
+					}
+				}
+			</script>
+			<!-- 商品导航 -->
+			<div class="san_top_hz">
+				<ul class="san_top_nr">
+					<li>
+						<strong>
+							<a href="" class="san_top_wz">首页</a>
+						</strong>
+					</li>
+					<li>
+						<strong>
+							<a href="" class="san_top_wz1">上衣</a>
+						</strong>
+					</li>
+					<li>
+						<strong>
+							<a href="" class="san_top_wz1">裙子</a>
+						</strong>
+					</li>
+					<li>
+						<strong>
+							<a href="" class="san_top_wz1">裤子</a>
+						</strong>
+					</li>
+					<li>
+						<strong>
+							<a href="" class="san_top_wz1">女鞋</a>
+						</strong>
+					</li>
+					<li>
+						<strong>
+							<a href="" class="san_top_wz1">包包</a>
+						</strong>
+					</li>
+					<li>
+						<strong>
+							<a href="" class="san_top_wz1">配饰</a>
+						</strong>
+					</li>
+					<li>
+						<strong>
+							<a href="" class="san_top_wz1">美妆</a>
+						</strong>
+					</li>
+					<li>
+						<strong>
+							<a href="" class="san_top_wz1">男友</a>
+						</strong>
+					</li>
+					<li>
+						<strong>
+							<a href="" class="san_top_wz1">童装</a>
+						</strong>
+					</li>
+					<li>
+						<strong>
+							<a href="" class="san_top_wz1">家居</a>
+						</strong>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 商品导航js -->
+		<script type="text/javascript">
+			var san_hz = document.querySelector(".san_top_hz");
+			var san_shu = san_hz.offsetTop;
+			window.addEventListener("scroll", function() {
+				if (window.pageYOffset >= san_shu) {
+					san_hz.style.position = "fixed";
+					san_hz.style.top = 0 + "px";
+				} else {
+					san_hz.style.position = "absolute";
+					san_hz.style.top = 190 + "px"
+				}
+			})
+		</script>
+		<!-- 轮播图 -->
+		<div class="sin_lb">
+			<ul>
+				<li class="sin_lb_bj_hz">
+					<a href="" class="sin_lb_bj_2">
+						<div class="sin_lb_js">
+							<img src="img/banner01.jpg">
+							<img src="img/banner02.jpg">
+							<img src="img/banner03.jpg">
+							<img src="img/banner04.jpg">
+							<img src="img/banner05.jpg">
+							<img src="img/banner06.jpg">
+						</div>
+						<a href="javascript:void(0)" class="sin_lb_left"></a>
+						<a href="javascript:void(0)" class="sin_lb_right"></a>
+					</a>
+					<ul class="sin_lb_din">
+						<li class="sin_lb_din_1"></li>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+		<script src="js/animated.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			// 显示按钮
+			var btn_left = document.querySelector(".sin_lb_left");
+			var btn_right = document.querySelector(".sin_lb_right");
+			var sin_lb_bj_hz = document.querySelector(".sin_lb_bj_hz");
+			var bannerWidth = 1200;
+			sin_lb_bj_hz.onmousemove = function() {
+				btn_left.style.display = "block";
+				btn_right.style.display = "block";
+				clearInterval(time);
+				time = null;
+			}
+			sin_lb_bj_hz.onmouseout = function() {
+				btn_left.style.display = "none";
+				btn_right.style.display = "none";
+				if (time == null) {
+					time = setInterval(function() {
+						btn_right.click();
+					},2000);
+				}
+		
+			}
+		
+			var lis = document.querySelectorAll(".sin_lb_din li");
+			var sin_lb_bj_2 = document.querySelector(".sin_lb_bj_2")
+			for (i = 0; i < lis.length; i++) {
+				lis[i].setAttribute("index", i);
+				lis[i].onmousemove = function() {
+					for (j = 0; j < lis.length; j++) {
+						lis[j].className = "";
+					}
+					this.className = "sin_lb_din_1";
+					var index = this.getAttribute("index")
+					btn = index;
+					lis_yc = index;
+					animated(sin_lb_bj_2, -bannerWidth * index);
+				}
+			}
+			var flag = true;
+			var sin_lb_js = document.querySelector(".sin_lb_js")
+			sin_lb_js.children[0].className = "sin_lb_logo";
+			var first = sin_lb_js.children[0].cloneNode(true);
+			sin_lb_js.appendChild(first);
+			sin_lb_js.style.width = sin_lb_js.children.length * 100 + "%";
+			var btn = 0;
+			var lis_yc = 0;
+			btn_right.onclick = function() {
+				if(flag){
+					flag = false;
+				if (btn == sin_lb_js.children.length - 1) {
+					btn = 0;
+					sin_lb_bj_2.style.left = 0;
+				}
+				btn++;
+				animated(sin_lb_bj_2, -bannerWidth * btn,function(){
+					flag = true;
+				});
+				lis_yc++;
+				if (lis_yc == sin_lb_js.children.length - 1) {
+					console.log(sin_lb_js.children)
+					lis_yc = 0;
+				}
+				for (k = 0; k < lis.length; k++) {
+					lis[k].className = "";
+				}
+				lis[lis_yc].className = "sin_lb_din_1";
+			}
+			}
+			
+			btn_left.onclick = function() {
+				if(flag){
+					flag = false
+				if (btn == 0) {
+					btn = lis.length;
+					sin_lb_bj_2.style.left = btn*-bannerWidth+"px";
+				}
+				btn--;
+				animated(sin_lb_bj_2, -bannerWidth * btn,function(){
+					flag = true;
+				});
+				lis_yc--;
+				if (lis_yc <0) {
+					console.log(sin_lb_js.children)
+					lis_yc = lis.length - 1;
+				}
+				for (k = 0; k < lis.length; k++) {
+					lis[k].className = "";
+				}
+				lis[lis_yc].className = "sin_lb_din_1";
+				}
+			}
+			var time = setInterval(function() {
+				btn_right.click();
+			},6000);
+		</script>
+
+		<!-- 商品 -->
+		<div class="wu_sp">
+			<ul>
+				<li><a href=""><img src="img/kinds01.png" title="今日新品"></a></li>
+				<li><a href=""><img src="img/kinds02.png" title="热销单品"></a></li>
+				<li><a href=""><img src="img/kinds03.png" title="每日特价"></a></li>
+				<li><a href=""><img src="img/kinds04.png" title="好物专题"></a></li>
+			</ul>
+		</div>
+
+		<!-- 右边固定导航栏 -->
+		<div class="nav_right_gd">
+			<ul>
+				<li class="nav_right_gd_hz">
+					<a href="" class="nav_right_gd_wz">
+						<span class="iconfont">&#xe621;</span>下载
+						<span class="nav_right_gd_wz2">APP</span>
+						<div class="nav_right_gd_erwm">
+							<span class="nav_right_gd_erwm_logo">
+								<span class="nav_right_gd_erwm_sj"></span>
+							</span>
+						</div>
+					</a>
+				</li>
+
+				<li>
+					<a href="" class="nav_right_gd_wz3">
+						<span class="iconfont">&#xe657;</span>购物车
+					</a>
+				</li>
+				<li>
+					<a href="" class="nav_right_gd_wz3">
+						<span class="iconfont">&#xe72c;</span>消息
+					</a>
+				</li>
+				<li>
+					<a href="" class="nav_right_gd_wz3">
+						<span class="iconfont">&#xe639;</span>优惠券
+					</a>
+				</li>
+				<li>
+					<a href="" class="nav_right_gd_wz3">
+						<span class="iconfont">&#xe610;</span>收藏
+					</a>
+				</li>
+				<li>
+					<a href="" class="nav_right_gd_wz3">
+						<span class="iconfont">&#xe638;</span>足迹
+					</a>
+				</li>
+			</ul>
+			<li>
+				<a href="javascript:void(0)" class="nav_right_gd_wz4">
+					<span class="iconfont">&#xe633;</span>
+				</a>
+			</li>
+		</div>
+		<script src="js/animated.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			var nav_right_gd = document.querySelector(".nav_right_gd_wz4")
+			window.addEventListener("scroll", function() {
+				if (window.pageYOffset > 0) {
+					nav_right_gd.style.display = "block";
+				} else {
+					nav_right_gd.style.display = "none";
+				}
+			})
+			nav_right_gd.onclick = function() {
+				animated_scroll(window, 0)
+			}
+		</script>
+
+
+		<!-- 商品导航栏2 -->
+		<div class="l_sple">
+			<ul class="l_sple_top">
+				<li class="l_sple_top_wz1">
+					<a href="javascript:void(0)" class="l_sple_top_wz2">今日新品</a>
+					<a href="javascript:void(0)">一周热销</a>
+				</li>
+				<li class="l_sple_top_wz4">查看更多<span>></span></li>
+			</ul>
+			<ul id="splb" style="display:block;">
+				<li class="l_sple_bottom">
+					<a href="" class="l_sple_bottom_logo_1"><img src="img/goods01.png"></a>
+					<span class="l_sple_bottom_wz1_1">93.75</span>
+					<span class="l_sple_bottom_wz2_1"><img src="img/wjx.png">520</span>
+					<span class="l_sple_bottom_wz3_1">
+						<span><img src="img/youxuan.png">小清新新款韩版气质收腰显瘦百搭蕾丝边V领木耳边镂空休闲连衣裙</span>
+					</span>
+				</li>
+				<li class="l_sple_bottom_1">
+					<a href="" class="l_sple_bottom_logo_2"><img src="img/goods02.png"></a>
+					<span class="l_sple_bottom_wz1_2">93.75</span>
+					<span class="l_sple_bottom_wz2_2"><img src="img/wjx.png">520</span>
+					<span class="l_sple_bottom_wz3_2">
+						<span><img src="img/youxuan.png">小清新新款韩版气质收腰显瘦百搭蕾丝边V领木耳边镂空休闲连衣裙</span>
+					</span>
+				</li>
+
+				<li class="l_sple_bottom_1">
+					<a href="" class="l_sple_bottom_logo_2"><img src="img/goods03.png"></a>
+					<span class="l_sple_bottom_wz1_2">93.75</span>
+					<span class="l_sple_bottom_wz2_2"><img src="img/wjx.png">520</span>
+					<span class="l_sple_bottom_wz3_2">
+						<span><img src="img/youxuan.png">小清新新款韩版气质收腰显瘦百搭蕾丝边V领木耳边镂空休闲连衣裙</span>
+					</span>
+				</li>
+
+				<li class="l_sple_bottom_1">
+					<a href="" class="l_sple_bottom_logo_2"><img src="img/goods04.png"></a>
+					<span class="l_sple_bottom_wz1_2">93.75</span>
+					<span class="l_sple_bottom_wz2_2"><img src="img/wjx.png">520</span>
+					<span class="l_sple_bottom_wz3_2">
+						<span><img src="img/youxuan.png">小清新新款韩版气质收腰显瘦百搭蕾丝边V领木耳边镂空休闲连衣裙</span>
+					</span>
+				</li>
+				<li class="l_sple_bottom_1">
+					<a href="" class="l_sple_bottom_logo_2"><img src="img/goods05.png"></a>
+					<span class="l_sple_bottom_wz1_2">93.75</span>
+					<span class="l_sple_bottom_wz2_2"><img src="img/wjx.png">520</span>
+					<span class="l_sple_bottom_wz3_2">
+						<span><img src="img/youxuan.png">小清新新款韩版气质收腰显瘦百搭蕾丝边V领木耳边镂空休闲连衣裙</span>
+					</span>
+				</li>
+				<span class="l_sple_gh"></span>
+				<li class="l_sple_bottom">
+					<a href="" class="l_sple_bottom_logo_1"><img src="img/goods06.png"></a>
+					<span class="l_sple_bottom_wz1_1">93.75</span>
+					<span class="l_sple_bottom_wz2_1"><img src="img/wjx.png">520</span>
+					<span class="l_sple_bottom_wz3_1">
+						<span><img src="img/youxuan.png">小清新新款韩版气质收腰显瘦百搭蕾丝边V领木耳边镂空休闲连衣裙</span>
+					</span>
+				</li>
+
+				<li class="l_sple_bottom_1">
+					<a href="" class="l_sple_bottom_logo_2"><img src="img/goods07.png"></a>
+					<span class="l_sple_bottom_wz1_2">93.75</span>
+					<span class="l_sple_bottom_wz2_2"><img src="img/wjx.png">520</span>
+					<span class="l_sple_bottom_wz3_2">
+						<span><img src="img/youxuan.png">小清新新款韩版气质收腰显瘦百搭蕾丝边V领木耳边镂空休闲连衣裙</span>
+					</span>
+				</li>
+
+				<li class="l_sple_bottom_1">
+					<a href="" class="l_sple_bottom_logo_2"><img src="img/goods08.png"></a>
+					<span class="l_sple_bottom_wz1_2">93.75</span>
+					<span class="l_sple_bottom_wz2_2"><img src="img/wjx.png">520</span>
+					<span class="l_sple_bottom_wz3_2">
+						<span><img src="img/youxuan.png">小清新新款韩版气质收腰显瘦百搭蕾丝边V领木耳边镂空休闲连衣裙</span>
+					</span>
+				</li>
+
+				<li class="l_sple_bottom_1">
+					<a href="" class="l_sple_bottom_logo_2"><img src="img/goods09.png"></a>
+					<span class="l_sple_bottom_wz1_2">93.75</span>
+					<span class="l_sple_bottom_wz2_2"><img src="img/wjx.png">520</span>
+					<span class="l_sple_bottom_wz3_2">
+						<span><img src="img/youxuan.png">小清新新款韩版气质收腰显瘦百搭蕾丝边V领木耳边镂空休闲连衣裙</span>
+					</span>
+				</li>
+				<li class="l_sple_bottom_1">
+					<a href="" class="l_sple_bottom_logo_2"><img src="img/goods10.png"></a>
+					<span class="l_sple_bottom_wz1_2">93.75</span>
+					<span class="l_sple_bottom_wz2_2"><img src="img/wjx.png">520</span>
+					<span class="l_sple_bottom_wz3_2">
+						<span><img src="img/youxuan.png">小清新新款韩版气质收腰显瘦百搭蕾丝边V领木耳边镂空休闲连衣裙</span>
+					</span>
+				</li>
+			</ul>
+
+
+			<ul id="splb" style="display: none;">
+				<li class="l_sple_bottom">
+					<a href="" class="l_sple_bottom_logo_1"><img src="img/goods11.png"></a>
+					<span class="l_sple_bottom_wz1_1">93.75</span>
+					<span class="l_sple_bottom_wz2_1"><img src="img/wjx.png">520</span>
+					<span class="l_sple_bottom_wz3_1">
+						<span><img src="img/youxuan.png">小清新新款韩版气质收腰显瘦百搭蕾丝边V领木耳边镂空休闲连衣裙</span>
+					</span>
+				</li>
+				<li class="l_sple_bottom_1">
+					<a href="" class="l_sple_bottom_logo_2"><img src="img/goods12.png"></a>
+					<span class="l_sple_bottom_wz1_2">93.75</span>
+					<span class="l_sple_bottom_wz2_2"><img src="img/wjx.png">520</span>
+					<span class="l_sple_bottom_wz3_2">
+						<span><img src="img/youxuan.png">小清新新款韩版气质收腰显瘦百搭蕾丝边V领木耳边镂空休闲连衣裙</span>
+					</span>
+				</li>
+
+				<li class="l_sple_bottom_1">
+					<a href="" class="l_sple_bottom_logo_2"><img src="img/goods13.png"></a>
+					<span class="l_sple_bottom_wz1_2">93.75</span>
+					<span class="l_sple_bottom_wz2_2"><img src="img/wjx.png">520</span>
+					<span class="l_sple_bottom_wz3_2">
+						<span><img src="img/youxuan.png">小清新新款韩版气质收腰显瘦百搭蕾丝边V领木耳边镂空休闲连衣裙</span>
+					</span>
+				</li>
+
+				<li class="l_sple_bottom_1">
+					<a href="" class="l_sple_bottom_logo_2"><img src="img/goods14.png"></a>
+					<span class="l_sple_bottom_wz1_2">93.75</span>
+					<span class="l_sple_bottom_wz2_2"><img src="img/wjx.png">520</span>
+					<span class="l_sple_bottom_wz3_2">
+						<span><img src="img/youxuan.png">小清新新款韩版气质收腰显瘦百搭蕾丝边V领木耳边镂空休闲连衣裙</span>
+					</span>
+				</li>
+				<li class="l_sple_bottom_1">
+					<a href="" class="l_sple_bottom_logo_2"><img src="img/goods15.png"></a>
+					<span class="l_sple_bottom_wz1_2">93.75</span>
+					<span class="l_sple_bottom_wz2_2"><img src="img/wjx.png">520</span>
+					<span class="l_sple_bottom_wz3_2">
+						<span><img src="img/youxuan.png">小清新新款韩版气质收腰显瘦百搭蕾丝边V领木耳边镂空休闲连衣裙</span>
+					</span>
+				</li>
+				<span class="l_sple_gh"></span>
+				<li class="l_sple_bottom">
+					<a href="" class="l_sple_bottom_logo_1"><img src="img/goods16.png"></a>
+					<span class="l_sple_bottom_wz1_1">93.75</span>
+					<span class="l_sple_bottom_wz2_1"><img src="img/wjx.png">520</span>
+					<span class="l_sple_bottom_wz3_1">
+						<span><img src="img/youxuan.png">小清新新款韩版气质收腰显瘦百搭蕾丝边V领木耳边镂空休闲连衣裙</span>
+					</span>
+				</li>
+
+				<li class="l_sple_bottom_1">
+					<a href="" class="l_sple_bottom_logo_2"><img src="img/goods17.png"></a>
+					<span class="l_sple_bottom_wz1_2">93.75</span>
+					<span class="l_sple_bottom_wz2_2"><img src="img/wjx.png">520</span>
+					<span class="l_sple_bottom_wz3_2">
+						<span><img src="img/youxuan.png">小清新新款韩版气质收腰显瘦百搭蕾丝边V领木耳边镂空休闲连衣裙</span>
+					</span>
+				</li>
+
+				<li class="l_sple_bottom_1">
+					<a href="" class="l_sple_bottom_logo_2"><img src="img/goods18.png"></a>
+					<span class="l_sple_bottom_wz1_2">93.75</span>
+					<span class="l_sple_bottom_wz2_2"><img src="img/wjx.png">520</span>
+					<span class="l_sple_bottom_wz3_2">
+						<span><img src="img/youxuan.png">小清新新款韩版气质收腰显瘦百搭蕾丝边V领木耳边镂空休闲连衣裙</span>
+					</span>
+				</li>
+
+				<li class="l_sple_bottom_1">
+					<a href="" class="l_sple_bottom_logo_2"><img src="img/goods19.png"></a>
+					<span class="l_sple_bottom_wz1_2">93.75</span>
+					<span class="l_sple_bottom_wz2_2"><img src="img/wjx.png">520</span>
+					<span class="l_sple_bottom_wz3_2">
+						<span><img src="img/youxuan.png">小清新新款韩版气质收腰显瘦百搭蕾丝边V领木耳边镂空休闲连衣裙</span>
+					</span>
+				</li>
+				<li class="l_sple_bottom_1">
+					<a href="" class="l_sple_bottom_logo_2"><img src="img/goods20.png"></a>
+					<span class="l_sple_bottom_wz1_2">93.75</span>
+					<span class="l_sple_bottom_wz2_2"><img src="img/wjx.png">520</span>
+					<span class="l_sple_bottom_wz3_2">
+						<span><img src="img/youxuan.png">小清新新款韩版气质收腰显瘦百搭蕾丝边V领木耳边镂空休闲连衣裙</span>
+					</span>
+				</li>
+			</ul>
+		</div>
+
+
+
+		<script type="text/javascript">
+			var l_sple_a = document.querySelectorAll(".l_sple_top li a");
+			var splb = document.querySelectorAll("#splb")
+			for (i = 0; i < l_sple_a.length; i++) {
+				l_sple_a[i].setAttribute("index",i);
+				l_sple_a[i].onclick = function() {
+					for (j = 0; j < l_sple_a.length; j++) {
+						l_sple_a[j].style.color = "#000";
+						l_sple_a[j].className = ""
+						splb[j].style.display = "none"
+					}
+					this.style.color = "#e40045";
+					this.className = "l_sple_top_wz2"
+					var index = this.getAttribute("index");
+					splb[index].style.display= "block"
+					
+				}
+			}
+			// l_sple_a[0].onclick = function(){
+			// 	
+			// }
+			// l_sple_a[1].onclick = function(){
+			// 	splb_1.style.display = "block"
+			// 	splb.style.display = "none"
+			// }
+		</script>
+
+		<!-- 好物组货 -->
+		<div class="qi_hwu">
+			<ul class="qi_hwu_top">
+				<li class="qi_hwu_top_left">好物组货</li>
+				<a href="" class="qi_hwu_top_right">查看更多></a>
+			</ul>
+			<ul class="qi_hwu_bottom">
+				<li class="qi_hwu_bottom_left">
+					<a href="" class="qi_hwu_bottom_1_logo"><img src="img/newProduct01.png">
+						<span>50款商品</span>
+					</a>
+					<a href="" class="qi_hwu_bottom_1_db">
+						<img src="img/dress01.png">
+						<span class="qi_hwu_bottom_1_wz">100.00</span>
+					</a>
+
+					<a href="" class="qi_hwu_bottom_2_db">
+						<img src="img/dress02.png">
+						<span class="qi_hwu_bottom_1_wz">100.00</span>
+					</a>
+
+					<a href="" class="qi_hwu_bottom_3_db">
+						<img src="img/dress03.png">
+						<span class="qi_hwu_bottom_1_wz">100.00</span>
+					</a>
+				</li>
+				<li class="qi_hwu_bottom_center">
+					<a href="" class="qi_hwu_bottom_2_logo"><img src="img/newProduct02.png">
+						<span>50款商品</span></a>
+					<a href="" class="qi_hwu_bottom_1_db">
+						<img src="img/pants01.png">
+						<span class="qi_hwu_bottom_1_wz">100.00</span>
+					</a>
+
+					<a href="" class="qi_hwu_bottom_2_db">
+						<img src="img/pants02.png">
+						<span class="qi_hwu_bottom_1_wz">100.00</span>
+					</a>
+
+					<a href="" class="qi_hwu_bottom_3_db">
+						<img src="img/pants03.png">
+						<span class="qi_hwu_bottom_1_wz">100.00</span>
+					</a>
+				</li>
+				<li class="qi_hwu_bottom_right">
+					<a href="" class="qi_hwu_bottom_3_logo"><img src="img/newProduct03.png"><span>50款商品</span>
+					</a>
+					<a href="" class="qi_hwu_bottom_1_db">
+						<img src="img/shoes01.png">
+						<span class="qi_hwu_bottom_1_wz">100.00</span>
+					</a>
+
+					<a href="" class="qi_hwu_bottom_2_db">
+						<img src="img/shoes02.png">
+						<span class="qi_hwu_bottom_1_wz">100.00</span>
+					</a>
+
+					<a href="" class="qi_hwu_bottom_3_db">
+						<img src="img/shoes03.png">
+						<span class="qi_hwu_bottom_1_wz">100.00</span>
+					</a>
+				</li>
+			</ul>
+		</div>
+		</div>
+
+		<!-- 结束 -->
+		<div class="stop_hz">
+			<div class="stop_hz_nr">
+				<ul class="stop_hz_left_nr">
+					<li class="stop_hz_left">
+						<span class="stop_hz_left_top"><strong>买家帮助</strong></span>
+						<a href="" class="stop_hz_left_wz">新手指南</a>
+						<a href="" class="stop_hz_left_wz">服务保障</a>
+						<a href="" class="stop_hz_left_wz">常见问题</a>
+						<a href="" class="stop_hz_left_wz">风险监测</a>
+					</li>
+
+					<li class="stop_hz_left">
+						<span class="stop_hz_left_top"><strong>商家帮助</strong></span>
+						<a href="" class="stop_hz_left_wz">供货商招募</a>
+						<a href="" class="stop_hz_left_wz">商家后台</a>
+					</li>
+
+					<li class="stop_hz_left">
+						<span class="stop_hz_left_top"><strong>关于我们</strong></span>
+						<a href="" class="stop_hz_left_wz">关于美丽说</a>
+						<a href="" class="stop_hz_left_wz">联系我们</a>
+					</li>
+
+					<li class="stop_hz_left">
+						<span class="stop_hz_left_top"><strong>关注我们</strong></span>
+						<a href="" class="stop_hz_left_wz_1">新浪微博</a>
+						<a href="" class="stop_hz_left_wz_2">QQ空间</a>
+						<a href="" class="stop_hz_left_wz_3">腾讯微博</a>
+					</li>
+				</ul>
+				<ul class="stop_hz_right">
+					<li class="stop_hz_right_1">
+						<span class="stop_hz_right_1_wz">美丽说微信服务号</span>
+						<span class="stop_hz_right_1_logo"><img src="img/weixin-server-qrcode.jpg"></span>
+					</li>
+					<li class="stop_hz_right_2">
+						<span class="stop_hz_right_2_wz">美丽说客户端下载</span>
+						<span class="stop_hz_right_2_logo"><img src="img/meili-app-qrcode.png"></span>
+					</li>
+					<ul>
+			</div>
+			<div class="stop_hz_bottom">
+				<span class="stop_hz_bottom_wz1">Copyright ©2017 xxxxxxxx.com 电信与信息服务业务经营许可证xxxxxx号 经营性网站备案信息</span>
+				<span class="stop_hz_bottom_wz2">京ICP备xxxxxxxx号 京公网安备xxxxxxxx 客服电话：xxxx-xxx-xxx 文明办网文明上网举报电话：xxx-xxxxxxxx
+					违法不良信息举报中心</span>
+			</div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,471 @@
+@media screen and (min-width: 992px) {
+	.nav_sp li:nth-child(1) a span:nth-child(1) {
+		width: 250px;
+		height: 168px;
+		background: url(https://www-static.chinacdn.starbucks.com.cn/prod/assets/images/homepage/coffeehouse-coffee-cultivation-kv.jpg);
+		background-repeat: no-repeat;
+		background-size: 100%;
+		display: block;
+	}
+	
+	.nav_sp li:nth-child(2) a span:nth-child(1) {
+		width: 250px;
+		height: 168px;
+		background: url(https://www-static.chinacdn.starbucks.com.cn/prod/assets/images/homepage/coffeehouse-4-fundamentals-kv.jpg);
+		background-repeat: no-repeat;
+		background-size: 250px 168px;
+		display: block;
+	}
+	
+	.nav_sp li:nth-child(3) a span:nth-child(1) {
+		width: 250px;
+		height: 168px;
+		background: url(https://www-static.chinacdn.starbucks.com.cn/prod/assets/images/homepage/coffeehouse-roast-story-kv.jpg);
+		background-repeat: no-repeat;
+		background-size: 100%;
+		display: block;
+	}
+	
+	.nav_sp li:nth-child(4) a span:nth-child(1) {
+		width: 250px;
+		height: 168px;
+		background: url(https://www-static.chinacdn.starbucks.com.cn/prod/assets/images/homepage/coffeehouse-pour-over-kv.jpg);
+		background-repeat: no-repeat;
+		background-size: 100%;
+		display: block;
+	}
+	
+	.box_a {
+		height: calc(100% - 36px);
+		position: fixed;
+		padding: 24px;
+	}
+
+	.nav_topCenter {
+		position: absolute;
+		top: 50%;
+		left: 0;
+	}
+	.nav_sp {
+		width: 1260px;
+		position: absolute;
+		top: 0px;
+		left: 300px;
+		margin: 0 auto;
+		margin-bottom: 30px;
+		transition: all 0.5s;
+	}
+	.box_rightXingR {
+		float: right;
+		margin-top: 60px;
+		display: block;
+	}
+	
+	.box_rightXingR2{
+		display: none;
+	}
+	
+	.box_choiceness {
+		width: 720px;
+		margin: 0 auto;
+		padding: 36px 0;
+	}
+	
+	.box_choiceness ul li {
+		width: 168px;
+		height: 220px;
+		background-color: #FFFFFF;
+		position: relative;
+	}
+	
+	.box_choiceness ul li img {
+		width: 102px;
+		height: 72px;
+		display: block;
+	
+	}
+	
+	.box_choiceness ul li:nth-child(1) img {
+		position: absolute;
+		top: -36px;
+		left: 33px;
+	
+	}
+	
+	.box_choiceness ul li:nth-child(2) img {
+		position: absolute;
+		top: -36px;
+		left: 33px;
+	
+	}
+	
+	.box_choiceness ul li:nth-child(3) img {
+		position: absolute;
+		top: -36px;
+		left: 33px;
+	
+	}
+	
+	.box_choiceness ul li:nth-child(4) img {
+		position: absolute;
+		top: -36px;
+		left: 33px;
+	
+	}
+	.nav_leftAn {
+		width: 30px;
+		height: 30px;
+		border-radius: 50%;
+		z-index: 2;
+		background-color: white;
+		background-image: url(https://www-static.chinacdn.starbucks.com.cn/prod/assets/icons/icon-scroll-left.svg);
+		background-repeat: no-repeat;
+		background-position-x: 2px;
+		background-position-y: 2px;
+		display: none;
+	}
+	
+	
+	.nav_RightAn {
+		width: 30px;
+		height: 30px;
+		border-radius: 50%;
+		z-index: 2;
+		background-color: white;
+		background-image: url(https://www-static.chinacdn.starbucks.com.cn/prod/assets/icons/icon-scroll-right.svg);
+		background-repeat: no-repeat;
+		background-position-x: 4px;
+		background-position-y: 2px;
+	}
+	
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+	.nav_sp li:nth-child(1) a span:nth-child(1) {
+		width: 250px;
+		height: 168px;
+		background: url(https://www-static.chinacdn.starbucks.com.cn/prod/assets/images/homepage/coffeehouse-coffee-cultivation-kv.jpg);
+		background-repeat: no-repeat;
+		background-size: 100%;
+		display: block;
+	}
+	
+	.nav_sp li:nth-child(2) a span:nth-child(1) {
+		width: 250px;
+		height: 168px;
+		background: url(https://www-static.chinacdn.starbucks.com.cn/prod/assets/images/homepage/coffeehouse-4-fundamentals-kv.jpg);
+		background-repeat: no-repeat;
+		background-size: 250px 168px;
+		display: block;
+	}
+	
+	.nav_sp li:nth-child(3) a span:nth-child(1) {
+		width: 250px;
+		height: 168px;
+		background: url(https://www-static.chinacdn.starbucks.com.cn/prod/assets/images/homepage/coffeehouse-roast-story-kv.jpg);
+		background-repeat: no-repeat;
+		background-size: 100%;
+		display: block;
+	}
+	
+	.nav_sp li:nth-child(4) a span:nth-child(1) {
+		width: 250px;
+		height: 168px;
+		background: url(https://www-static.chinacdn.starbucks.com.cn/prod/assets/images/homepage/coffeehouse-pour-over-kv.jpg);
+		background-repeat: no-repeat;
+		background-size: 100%;
+		display: block;
+	}
+	
+	.box_a {
+		position: relative;
+		height: 180px;
+	}
+	.nav_paw {
+		display: block;
+		margin-bottom: 14px;
+	}
+	
+	.nav_topCenter{
+		margin-top: 24px;
+	}
+	
+	.nav_topCenter button {
+		width: 50px;
+		height: 30px;
+		
+	}
+	.nav_sp {
+		width: 1260px;
+		position: absolute;
+		top: 0px;
+		left: 40px;
+		margin: 0 auto;
+		margin-bottom: 30px;
+		transition: all 0.5s;
+	}
+	.box_rightXingR {
+		float: right;
+		margin-top: 60px;
+		display: block;
+	}
+	
+	.box_rightXingR2{
+		display: none;
+	}
+	
+	.box_choiceness {
+		width: 720px;
+		margin: 0 auto;
+		padding: 36px 0;
+	}
+	
+	.box_choiceness ul li {
+		width: 168px;
+		height: 220px;
+		background-color: #FFFFFF;
+		position: relative;
+	}
+	
+	.box_choiceness ul li img {
+		width: 102px;
+		height: 72px;
+		display: block;
+	
+	}
+	
+	.box_choiceness ul li:nth-child(1) img {
+		position: absolute;
+		top: -36px;
+		left: 33px;
+	
+	}
+	
+	.box_choiceness ul li:nth-child(2) img {
+		position: absolute;
+		top: -36px;
+		left: 33px;
+	
+	}
+	
+	.box_choiceness ul li:nth-child(3) img {
+		position: absolute;
+		top: -36px;
+		left: 33px;
+	
+	}
+	
+	.box_choiceness ul li:nth-child(4) img {
+		position: absolute;
+		top: -36px;
+		left: 33px;
+	
+	}
+	
+	.nav_leftAn {
+		width: 30px;
+		height: 30px;
+		border-radius: 50%;
+		z-index: 2;
+		background-color: white;
+		background-image: url(https://www-static.chinacdn.starbucks.com.cn/prod/assets/icons/icon-scroll-left.svg);
+		background-repeat: no-repeat;
+		background-position-x: 2px;
+		background-position-y: 2px;
+		display: none;
+	}
+	
+	
+	.nav_RightAn {
+		width: 30px;
+		height: 30px;
+		border-radius: 50%;
+		z-index: 2;
+		background-color: white;
+		background-image: url(https://www-static.chinacdn.starbucks.com.cn/prod/assets/icons/icon-scroll-right.svg);
+		background-repeat: no-repeat;
+		background-position-x: 4px;
+		background-position-y: 2px;
+	}
+	
+}
+
+@media screen and (max-width: 767px) {
+	.nav_sp li:nth-child(1) a span:nth-child(1) {
+		width: 250px;
+		height: 138px;
+		background: url(https://www-static.chinacdn.starbucks.com.cn/prod/assets/images/homepage/coffeehouse-coffee-cultivation-kv.jpg);
+		background-repeat: no-repeat;
+		background-size: 100%;
+		display: block;
+	}
+	
+	.nav_sp li:nth-child(2) a span:nth-child(1) {
+		width: 250px;
+		height: 138px;
+		background: url(https://www-static.chinacdn.starbucks.com.cn/prod/assets/images/homepage/coffeehouse-4-fundamentals-kv.jpg);
+		background-repeat: no-repeat;
+		background-size: 250px 138px;
+		display: block;
+	}
+	
+	.nav_sp li:nth-child(3) a span:nth-child(1) {
+		width: 250px;
+		height: 138px;
+		background: url(https://www-static.chinacdn.starbucks.com.cn/prod/assets/images/homepage/coffeehouse-roast-story-kv.jpg);
+		background-repeat: no-repeat;
+		background-size: 100%;
+		display: block;
+	}
+	
+	.nav_sp li:nth-child(4) a span:nth-child(1) {
+		width: 250px;
+		height: 138px;
+		background: url(https://www-static.chinacdn.starbucks.com.cn/prod/assets/images/homepage/coffeehouse-pour-over-kv.jpg);
+		background-repeat: no-repeat;
+		background-size: 100%;
+		display: block;
+	}
+	
+	.nav_sp {
+		width: 1260px;
+		position: absolute;
+		top: 0px;
+		left: 40px;
+		margin: 0 auto;
+		margin-bottom: 30px;
+		transition: all 0.5s;
+	}
+	.box_a{
+		display: none;
+	}
+	.box_rightXingR {
+		display: none;
+	}
+	.lb_logoF{
+		width: 436px;
+		margin: 0 auto;
+	}
+	.box_rightXingR2{
+		display: block;
+	}
+	
+	.box_wz3{
+		margin-top: 6px;
+	}
+	
+	.box_wz{
+		text-align: center;
+	}
+	
+	.box_wz2{
+		text-align: center;
+		margin-top:36px ;
+	}
+	
+	.box_rightXingR2{
+		text-align: center;
+		margin-top: 24px;
+	}
+	
+	.box_choiceness {
+		
+		margin: 0 auto;
+		padding: 36px 0;
+	}
+	
+	.box_choiceness ul li {
+		background-color: #FFFFFF;
+		position: relative;
+	}
+	
+	.box_choiceness ul li img {
+		width: 102px;
+		height: 72px;
+		display: block;
+	
+	}
+	
+	.box_choiceness ul li:nth-child(1){
+		margin-left: 30px;
+	} 
+	
+	.box_choiceness ul li:nth-child(3){
+		margin-left: 30px;
+	} 
+	
+	.box_choiceness ul li:nth-child(3){
+		margin-top: 60px;
+	} 
+	
+	.box_choiceness ul li:nth-child(4){
+		margin-top: 60px;
+	} 
+	
+	.box_choiceness ul li:nth-child(1) img {
+		position: absolute;
+		top: -36px;
+		left: 50%;
+		margin-left: -50px;
+	}
+	
+	.box_choiceness ul li:nth-child(2) img {
+		position: absolute;
+		top: -36px;
+		left: 50%;
+		margin-left: -50px;
+	
+	}
+	
+	.box_choiceness ul li:nth-child(3) img {
+		position: absolute;
+		top: -36px;
+		left: 50%;
+		margin-left: -50px;
+	
+	}
+	
+	.box_choiceness ul li:nth-child(4) img {
+		position: absolute;
+		top: -36px;
+		left: 50%;
+		margin-left: -50px;
+	
+	}
+	
+	.nav_leftAn {
+		width: 30px;
+		height: 30px;
+		border-radius: 50%;
+		z-index: 2;
+		background-color: white;
+		background-image: url(https://www-static.chinacdn.starbucks.com.cn/prod/assets/icons/icon-scroll-left.svg);
+		background-repeat: no-repeat;
+		background-position-x: 2px;
+		background-position-y: 2px;
+	}
+	
+	
+	.nav_RightAn {
+		width: 30px;
+		height: 30px;
+		border-radius: 50%;
+		z-index: 2;
+		background-color: white;
+		background-image: url(https://www-static.chinacdn.starbucks.com.cn/prod/assets/icons/icon-scroll-right.svg);
+		background-repeat: no-repeat;
+		background-position-x: 4px;
+		background-position-y: 2px;
+	}
+	
+	.zc{
+		height: 30px;
+		text-align: center;
+		margin-bottom: 6px;
+	}
+	
+	.kb{
+		height: 100px;
+		background-color: #f7f7f7;
+	}
+}

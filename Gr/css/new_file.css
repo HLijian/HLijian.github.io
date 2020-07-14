@@ -6,20 +6,21 @@
   width: 100%;
   text-align: center;
   margin-top: 50px;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
   font-weight: 600;
+  float: left;
 }
 .box .box_htmlOne {
-  height: 100%;
   float: left;
   width: 560px;
+  height: 500px;
   transition: all 1s;
   margin-right: 40px;
 }
 .box .box_htmlOne a {
   width: auto;
   box-shadow: 0 0 12px 4px rgba(0, 0, 0, 0.5);
-  height: 100%;
+  height: auto;
   float: left;
 }
 .box .box_htmlOne a h4 {
@@ -42,7 +43,7 @@
   height: 100%;
 }
 .box .box_htmlTwo {
-  height: 100%;
+  height: auto;
   float: left;
   width: 560px;
   transition: all 1s;

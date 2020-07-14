@@ -1,7 +1,7 @@
 $(function() {
 
 	//使用js创建歌曲样式，减少代码量
-	var song = Song
+	var song = Song;
 	var ullist = document.querySelector('#list')
 
 	function fun() {
@@ -43,7 +43,7 @@ $(function() {
 	var currentTimes = 0;
 	var sum2 = 0;
 	var box_listT = document.querySelectorAll('.box-listT')
-	
+
 	// 防止全局污染进行封装
 	function fz() {
 		for (var i = 0; i < Audioes.length; i++) {

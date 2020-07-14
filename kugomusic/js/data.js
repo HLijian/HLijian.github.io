@@ -1,4 +1,4 @@
-$(function(){
+
 	var Song = [
 		{Name: 'fripSide - Only My Railgun',Src:'audio/only%20my%20railgun.mp3'},
 		{Name: '沐月 - Sunshine Girl',		Src:'audio/Sunshine%20Girl.mp3'},
@@ -9,7 +9,5 @@ $(function(){
 		{Name: '泠鸢yousa - 勾指起誓',		 Src:'audio/Hook%20to%20swear.mp3'},
 		{Name: '黄晓明 _ 邓超 _ 佟大为 - 光阴的故事',Src:'audio/Story%20of%20Time.mp3'},
 		{Name: '晴愔 - 眉间雪 (纯歌版)',Src:'audio/meijs.mp3'},
-	
 	]
-})
 

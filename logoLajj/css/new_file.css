@@ -1,0 +1,247 @@
+.box{
+	width: 508px;
+	height: 300px;
+	margin: 100px auto;
+	border: 4px solid #eaeaea;
+	background-color: #f3F3F3;
+	padding: 50px 100px;
+}
+
+.box_left{
+	width: 100px;
+	margin-right: 50px;
+	float: left;
+	text-align: center;
+	padding: 0px 10px;
+}
+
+.box_checkOne{
+	width: 80px;
+	height: 30px;
+	background-color: #b2b2b2;
+	float: left;
+	margin: 10px 0px;
+	border-radius: 30px;
+	position: relative;
+	overflow: hidden;
+	
+}
+
+.box_checkDian{
+	width: 24px;
+	height: 24px;
+	background-color: white;
+	border-radius: 50%;
+	position: absolute;
+	left: 3px;
+	top: 3px;
+}
+
+.box_checkOneNo{
+	position: absolute;
+	left: -50px;
+	top: 7px;
+	font-size: 12px;
+	color: white;
+}
+
+.box_checkOneOff{
+	position: absolute;
+	left: 36px;
+	top: 7px;
+	font-size: 12px;
+	color: white;
+}
+
+.box_checkTwo{
+	width: 80px;
+	height: 30px;
+	background-color: #c9c9c9;
+	float: left;
+	margin: 10px 0px;
+	border-radius: 30px;
+	position: relative;
+	overflow: hidden;
+	
+}
+
+
+.box_checkTwoNo{
+	position: absolute;
+	left: -50px;
+	top: 7px;
+	font-size: 12px;
+	color: white;
+}
+
+.box_checkTwoOff{
+	position: absolute;
+	left: 36px;
+	top: 7px;
+	font-size: 12px;
+	color: white;
+}
+
+.box_checkSan{
+	width: 80px;
+	height: 30px;
+	background-color: #75b936;
+	float: left;
+	margin: 10px 0px;
+	border-radius: 30px;
+	position: relative;
+	overflow: hidden;
+	
+}
+
+
+.box_checkSanNo{
+	position: absolute;
+	left: 22px;
+	top: 7px;
+	font-size: 12px;
+	color: white;
+}
+
+.box_checkSanOff{
+	position: absolute;
+	left: 116px;
+	top: 7px;
+	font-size: 12px;
+	color: white;
+}
+.box_checkSanDian{
+	width: 24px;
+	height: 24px;
+	background-color: white;
+	border-radius: 50%;
+	position: absolute;
+	left: 53px;
+	top: 3px;
+}
+input{
+	 display: none;
+}
+
+.box_right{
+	width: 100px;
+	margin-left: 50px;
+	float: left;
+	text-align: center;
+	padding: 0px 10px;
+}
+
+.box_radioOne{
+	width: 80px;
+	height: 30px;
+	background-color: #75b936;
+	float: left;
+	margin: 10px 0px;
+	border-radius: 30px;
+	position: relative;
+	overflow: hidden;
+	
+}
+
+.box_radioDian{
+	width: 24px;
+	height: 24px;
+	background-color: white;
+	border-radius: 50%;
+	position: absolute;
+	left: 53px;
+	top: 3px;
+}
+
+.box_radioOneNo{
+	position: absolute;
+	left: 22px;
+	top: 7px;
+	font-size: 12px;
+	color: white;
+}
+
+.box_radioOneOff{
+	position: absolute;
+	left: 116px;
+	top: 7px;
+	font-size: 12px;
+	color: white;
+}
+
+
+.box_radioTwo{
+	width: 80px;
+	height: 30px;
+	background-color: #c9c9c9;
+	float: left;
+	margin: 10px 0px;
+	border-radius: 30px;
+	position: relative;
+	overflow: hidden;
+	
+}
+
+.box_radioTwoDian{
+	width: 24px;
+	height: 24px;
+	background-color: white;
+	border-radius: 50%;
+	position: absolute;
+	left: 3px;
+	top: 3px;
+}
+
+.box_radioTwoNo{
+	position: absolute;
+	left: -50px;
+	top: 7px;
+	font-size: 12px;
+	color: white;
+}
+
+.box_radioTwoOff{
+	position: absolute;
+	left: 36px;
+	top: 7px;
+	font-size: 12px;
+	color: white;
+}
+
+.box_radioSan{
+	width: 80px;
+	height: 30px;
+	background-color:#b2b2b2;
+	float: left;
+	margin: 10px 0px;
+	border-radius: 30px;
+	position: relative;
+	overflow: hidden;
+	
+}
+
+
+.box_radioSanNo{
+	position: absolute;
+	left: -50px;
+	top: 7px;
+	font-size: 12px;
+	color: white;
+}
+
+.box_radioSanOff{
+	position: absolute;
+	left: 36px;
+	top: 7px;
+	font-size: 12px;
+	color: white;
+}
+.box_radioSanDian{
+	width: 24px;
+	height: 24px;
+	background-color: white;
+	border-radius: 50%;
+	position: absolute;
+	left: 3px;
+	top: 3px;
+}

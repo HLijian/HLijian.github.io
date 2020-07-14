@@ -1,0 +1,78 @@
+.box {
+  width: 360px;
+  height: 640px;
+  overflow: hidden;
+}
+.box .box_start {
+  height: 100%;
+  width: 100%;
+  background: url(../imges/background-start.png) no-repeat;
+  background-size: 100% 100%;
+  position: relative;
+  left: 0px;
+  top: 0px;
+  transition: all 0.4s;
+}
+.box .box_start button {
+  width: 100px;
+  height: 40px;
+  position: absolute;
+  left: 130px;
+  bottom: 50px;
+  margin: auto;
+  border: 2px solid #000;
+  background-color: rgba(255, 255, 255, 0.1);
+  text-align: center;
+  line-height: 36px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.box .box_game {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  left: 360px;
+  top: -640px;
+  background: url(../imges/background-game.png);
+  background-size: 100% 100%;
+  background-position-y: 0px;
+  transition: all 0.4s;
+}
+.box .box_game table {
+  width: 50%;
+  position: absolute;
+  top: -150px;
+  left: 50%;
+  margin-left: -25%;
+  transition: all 0.3s;
+  border: 2px solid black;
+  background: #c4c9ca;
+}
+.box .box_game table tr th,
+.box .box_game table tr td {
+  text-align: center;
+}
+.box .box_game .box_gameAnewMoney {
+  width: 100px;
+  height: auto;
+  position: absolute;
+  bottom: 40px;
+  left: 130px;
+  display: none;
+}
+.box .box_game .box_gameAnewMoney button {
+  width: 100px;
+  height: 40px;
+  text-align: center;
+  line-height: 36px;
+  border-radius: 20px;
+  border: 2px solid #000;
+  background: rgba(255, 255, 255, 0.1);
+  margin: 3px 0;
+  cursor: pointer;
+}
+.box .box_game img {
+  position: absolute;
+  left: 147px;
+  top: 540px;
+}

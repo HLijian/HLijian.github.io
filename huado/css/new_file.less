@@ -1,0 +1,88 @@
+.box{
+	width: 200px;
+	margin: 100px auto;
+	position: relative;
+	.pass{
+		width: 200px;
+		height: 200px;
+		text-align: center;
+		line-height: 200px;
+		position: absolute;
+		background-color: rgba(255,255,255,.5);
+		z-index: 20;
+		display: none;
+		font-weight: 700;
+	}
+	.fail{
+		width: 200px;
+		height: 200px;
+		text-align: center;
+		line-height: 200px;
+		position: absolute;
+		background-color: rgba(255,255,255,.5);
+		z-index: 20;
+		display: none;
+		font-weight: 700;
+		color: red;
+	}
+	
+	
+	.box_img{
+		width: 200px;
+		height: 200px;
+		position: relative;
+		background-image: url(../image/1.jpg);
+		background-repeat: no-repeat;
+		background-size: 200px;
+		img{
+			width: 100%;
+			height: 100%;
+		}
+		.sliding_img{
+			width: 28px;
+			height: 28px;
+			background-image: url(../image/1.jpg);
+			background-size: 200px;
+			position: absolute;
+			border: 1px solid red;
+			background-color: white;
+			z-index: 10;
+			display: none;
+		
+		}
+		.white_sliding{
+			width: 30px;
+			height: 30px;
+			position: absolute;
+			background-color: white;
+			}
+		
+	}
+	.slideway{
+		width: 200px;
+		height: 20px;
+		margin-top: 20px;
+		position: relative;
+		border: 1px solid red;
+		.sliding{
+			width: 30px;
+			height: 20px;
+			background-color: aqua;
+			position: absolute;
+			left: 0;
+			top: 0;
+		}
+		
+	}
+	
+}
+.slidingMask{
+			width: 100%;
+			height: 100%;
+			position: absolute;
+			left: 0;
+			top: 0;
+			z-index: 3;
+			// background-color: rgba(0,0,0,.3);
+			display: none;
+}

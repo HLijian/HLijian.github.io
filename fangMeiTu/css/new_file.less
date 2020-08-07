@@ -238,11 +238,13 @@
 				border: 1px solid rgb(255, 255, 255);
 				// padding-bottom: 20px;
 				// box-sizing: border-box;
+				
 				img {
 					height: 320px;
 					object-fit: cover;
 				}
 				div {
+					position: relative;
 					padding: 28px 31px 0px;
 					h5 {
 						overflow: hidden;
@@ -251,15 +253,17 @@
 						font-size: 20px;
 						font-weight: 500;
 						color: rgb(94, 94, 94);
-						margin-bottom: 32px;
+						
 					}
 					p {
-						height: 63px;
+						
+						
 						font-size: 14px;
 						font-weight: 400;
 						color: rgb(120, 120, 120);
 					}
 					.shom {
+						height: 63px;
 						word-break: break-all;
 						text-overflow: ellipsis;
 						overflow: hidden;
@@ -269,7 +273,7 @@
 						margin-bottom: 30px;
 					}
 					p:nth-of-type(2) {
-						float: left;
+						
 						font-weight: 700;
 						color: rgb(191, 191, 191);
 					}
@@ -916,6 +920,7 @@
 						position: relative;
 						float: left;
 						padding: 0 10px;
+						
 						h5 {
 							word-break: break-all;
 							text-overflow: ellipsis;
@@ -942,6 +947,9 @@
 							display: none;
 						}
 						p:nth-of-type(2) {
+							position: absolute;
+							left: 10px;
+							bottom: 0;
 							float: left;
 							font-weight: 700;
 							color: rgb(191, 191, 191);

@@ -1,0 +1,604 @@
+@media screen and (min-width: 641px) {
+  .box {
+    display: none;
+  }
+  h1 {
+    margin-top: 100px;
+    display: block;
+    font-size: 40px;
+    font-weight: 700;
+    width: 100%;
+    color: #333333;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 640px) {
+  h1 {
+    display: none;
+  }
+  .Fixed {
+    position: fixed;
+    bottom: 30px;
+    right: 0px;
+    z-index: 996;
+  }
+  .Fixed p {
+    width: 40px;
+    height: 40px;
+  }
+  .Fixed .service {
+    background-color: rgba(255, 0, 0, 0.5);
+    text-align: center;
+    line-height: 44px;
+    font-size: 34px;
+    color: white;
+    margin-bottom: 2px;
+  }
+  .Fixed .returnTop {
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    line-height: 44px;
+    font-size: 30px;
+    color: white;
+    opacity: 0;
+  }
+  .box {
+    max-width: 640px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    min-width: 320px;
+    display: block;
+  }
+  .box .menuList {
+    background-color: #f8f8f8;
+    z-index: 997;
+    position: fixed;
+    left: 200%;
+    top: 0;
+    display: block;
+    margin-top: 56px;
+    width: 100%;
+    height: 100%;
+    padding: 15px;
+    padding-top: 30px;
+    transition: all 0.5s;
+  }
+  .box .menuList ul li {
+    width: 100%;
+    padding: 15px 0;
+    border-bottom: 1px solid #d4d4d4;
+    color: #333;
+    font-size: 14px;
+    font-weight: 700;
+  }
+  .box .menuList ul li p {
+    float: right;
+    color: #333;
+  }
+  .box .menuList .menuListBottom {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .box .menuList .menuListBottom div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .box .menuList .menuListBottom div a {
+    float: left;
+    padding: 27px;
+  }
+  .box .menuList .menuListBottom div a p:nth-of-type(1) {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    border: 1px solid #6d6d6d;
+    margin: 0 auto 6px;
+  }
+  .box .menuList .menuListBottom div a p:nth-of-type(1) span {
+    display: block;
+    text-align: center;
+    line-height: 48px;
+    color: #333333;
+    font-size: 24px;
+  }
+  .box .menuList .menuListBottom div a p:nth-of-type(2) {
+    font-size: 14px;
+    color: #666666;
+    text-align: center;
+  }
+  .box header {
+    max-width: 640px;
+    width: 100%;
+    padding: 15px;
+    box-shadow: 0px -4px 12px rgba(0, 0, 0, 0.5);
+    position: fixed;
+    left: 0px;
+    top: 0;
+    background-color: white;
+    z-index: 998;
+  }
+  .box header .headLeft {
+    width: 104px;
+    float: left;
+  }
+  .box header .headLeft .headLeftLog {
+    width: 100%;
+    object-fit: cover;
+  }
+  .box header .headRight {
+    float: right;
+  }
+  .box header .headRight a {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-right: 15px;
+    line-height: 24px;
+  }
+  .box header .headRight a:nth-of-type(1) {
+    margin-right: 15px;
+    color: #333;
+  }
+  .box header .headRight a:nth-of-type(2) {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-right: 15px;
+    color: #000;
+  }
+  .box .boxHome {
+    position: relative;
+  }
+  .box .slid {
+    width: 100%;
+    padding-top: 57px;
+    z-index: 1;
+    position: relative;
+  }
+  .box .slid .make {
+    width: 100%;
+    height: 80px;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(0, 0, 0, 0.2));
+    position: absolute;
+    left: 0;
+    bottom: 0px;
+    z-index: 1;
+  }
+  .box .slid .slide ol {
+    z-index: 100;
+  }
+  .box .slid .slide ol li {
+    z-index: 5;
+    float: left;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 1px solid white;
+    box-sizing: border-box;
+    margin: 14px;
+    background-color: rgba(0, 0, 0, 0);
+  }
+  .box .slid .slide ol .active {
+    background-color: white;
+  }
+  .box .slid .slide div .slidOne {
+    position: relative;
+  }
+  .box .slid .slide div .slidOne p {
+    width: 140px;
+    height: 26px;
+    border: 1px solid #111;
+    color: #111;
+    text-align: center;
+    font-size: 12px;
+    line-height: 24px;
+    position: absolute;
+    box-sizing: border-box;
+    left: 50%;
+    bottom: 14%;
+    margin-left: -70px;
+  }
+  .box .slid .slide div .slidTwo {
+    position: relative;
+  }
+  .box .slid .slide div .slidTwo p {
+    width: 140px;
+    height: 26px;
+    border: 1px solid #111;
+    color: #111;
+    text-align: center;
+    font-size: 12px;
+    line-height: 24px;
+    position: absolute;
+    box-sizing: border-box;
+    left: 50%;
+    top: 42%;
+    margin-left: -70px;
+  }
+  .box .figOne {
+    width: 100%;
+    margin-top: 31px;
+    padding: 15px;
+  }
+  .box .figOne .figOneNav {
+    display: flex;
+    justify-content: center;
+    position: relative;
+  }
+  .box .figOne .figOneNav h3 {
+    color: #333;
+    float: left;
+    font-size: 1.66rem;
+    font-weight: 600;
+  }
+  .box .figOne .figOneNav span {
+    width: 40px;
+    border-bottom: 2px solid #c7000b;
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 40px;
+    margin-left: -20px;
+  }
+  .box .figOne .slid {
+    width: 100%;
+    z-index: 1;
+    position: relative;
+  }
+  .box .figOne .slid .make {
+    width: 100%;
+    height: 88.5%;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(0, 0, 0, 0.2));
+    position: absolute;
+    left: 0;
+    bottom: 0px;
+    z-index: 2;
+  }
+  .box .figOne .slid .slide ol li {
+    z-index: 5;
+    float: left;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 1px solid white;
+    box-sizing: border-box;
+    margin: 14px;
+  }
+  .box .figOne .slid .slide div .slidThr {
+    position: relative;
+  }
+  .box .figOne .slid .slide div .slidThr .slidThrText {
+    position: absolute;
+    left: 15px;
+    bottom: 42px;
+    z-index: 3;
+  }
+  .box .figOne .slid .slide div .slidThr .slidThrText p {
+    font-size: 12px;
+    color: white;
+  }
+  .box .figOne .slid .slide div .slidThr .slidThrText h6 {
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+  }
+  .box .figTwo {
+    max-width: 640px;
+    width: 100%;
+    padding: 15px;
+    padding-top: 0px;
+  }
+  .box .figTwo ul li {
+    display: flex;
+    flex: 1;
+    max-width: 610px;
+    width: 100%;
+    float: left;
+  }
+  .box .figTwo ul li a {
+    width: 100%;
+  }
+  .box .figTwo ul li a img {
+    width: 100%;
+    float: left;
+  }
+  .box .figTwo ul li a span {
+    width: 100%;
+    float: left;
+    padding: 15px;
+    background-color: #f5f5f5;
+  }
+  .box .figTwo ul li a span p {
+    font-size: 0.765rem;
+    color: #666666;
+  }
+  .box .figTwo ul li a span h5 {
+    padding: 4px 0px 0px 0px;
+    color: #333;
+    font-weight: 700;
+    font-size: 0.96rem;
+    height: 43.4px;
+  }
+  .box .figTwo ul li a:nth-of-type(1) {
+    margin-right: 15px;
+    margin-bottom: 15px;
+  }
+  .box .figTwo ul li a:nth-of-type(2) {
+    margin-bottom: 15px;
+  }
+  .box .figTwo ul li a:nth-of-type(3) {
+    margin-right: 15px;
+  }
+  .box .figThr {
+    max-width: 640px;
+    width: 100%;
+    margin-top: 20px;
+    position: relative;
+  }
+  .box .figThr img {
+    width: 100%;
+    object-fit: cover;
+  }
+  .box .figThr a {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .box .figFour {
+    max-width: 640px;
+    width: 100%;
+    position: relative;
+    padding: 15px;
+  }
+  .box .figFour .figFourNav {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    padding: 32px 0;
+  }
+  .box .figFour .figFourNav h3 {
+    float: left;
+    font-size: 1.66rem;
+    font-weight: 600;
+    color: #333;
+  }
+  .box .figFour .figFourNav span {
+    width: 40px;
+    border-bottom: 2px solid #c7000b;
+    display: block;
+    position: absolute;
+    left: 50%;
+    bottom: 26px;
+    margin-left: -20px;
+  }
+  .box .figFour .figFourNavLog {
+    width: 100%;
+    position: relative;
+    height: 180px;
+    overflow: hidden;
+    margin-top: 20px;
+  }
+  .box .figFour .figFourNavLog img {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: -28%;
+    z-index: -1;
+  }
+  .box .figFour .figFourNavLog p {
+    font-size: 16px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    text-align: center;
+    padding: 7px 20px;
+  }
+  .box .figFour .figFourCon {
+    width: 100%;
+    padding: 15px 15px 0px 15px;
+    background-color: #f8f8f8;
+    box-sizing: border-box;
+  }
+  .box .figFour .figFourCon .figFourConHead {
+    padding-top: 10px;
+  }
+  .box .figFour .figFourCon .figFourConHead h6 {
+    font-weight: 700;
+    color: #333333;
+    font-size: 14px;
+  }
+  .box .figFour .figFourCon .figFourConHead .figFourConEr {
+    margin-top: 14px;
+  }
+  .box .figFour .figFourCon .figFourConHead .figFourConEr p {
+    color: #333333;
+    float: left;
+    font-size: 16px;
+  }
+  .box .figFour .figFourCon .figFourConHead .figFourConEr p:nth-of-type(3) {
+    padding-left: 22px;
+  }
+  .box .figFour .figFourCon .figFourConHead .figFourConEr p:nth-of-type(2) {
+    font-size: 14px;
+    padding-left: 8px;
+  }
+  .box .figFour .figFourCon .figFourConHead .figFourConEr p:nth-of-type(4) {
+    font-size: 14px;
+    padding-left: 8px;
+  }
+  .box .figFour .figFourCon .figFourConHead .figFourConText {
+    margin-top: 42px;
+    font-size: 12px;
+    padding-bottom: 15px;
+    color: #666666;
+  }
+  .box .figFour .figFour3 {
+    margin-top: 12px;
+    width: 100%;
+    background-color: #f8f8f8;
+    position: relative;
+  }
+  .box .figFour .figFour3 .figFourText {
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: block;
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 7px 20px;
+  }
+  .box .figFour .figFour3 .figFour3Box {
+    padding: 64px 15px 0px 15px;
+  }
+  .box .figFour .figFour3 .figFour3Box a {
+    display: block;
+  }
+  .box .figFour .figFour3 .figFour3Box a h3 {
+    font-size: 17px;
+    font-weight: 700;
+    color: #333;
+  }
+  .box .figFour .figFour3 .figFour3Box a p {
+    color: #666666;
+    font-size: 12px;
+    padding-bottom: 50px;
+  }
+  .box .figFour .figFourEnd {
+    display: flex;
+    justify-content: center;
+    margin-top: 32px;
+  }
+  .box .figFour .figFourEnd .figFourEnda {
+    width: 140px;
+    height: 32px;
+    border: 1px solid #111;
+    text-align: center;
+    line-height: 32px;
+    margin: 0px 15px;
+    box-sizing: border-box;
+    color: #111111;
+    font-size: 12px;
+  }
+  .box .end {
+    width: 100%;
+    background-color: #f2f2f2;
+    padding: 15px;
+    margin-top: 22px;
+  }
+  .box .end .endNav {
+    display: flex;
+    padding-bottom: 16px;
+    width: 100%;
+  }
+  .box .end .endNav input {
+    background-color: white;
+    width: 100%;
+    height: 48px;
+    box-sizing: border-box;
+    float: left;
+    border: 1px solid #bebdbd;
+    border-right: none;
+    padding: 15px;
+    font-size: 16px;
+    color: #757575;
+  }
+  .box .end .endNav p {
+    background-color: white;
+    width: 48px;
+    height: 48px;
+    font-size: 26px;
+    color: #c4c1c1;
+    line-height: 48px;
+    text-align: center;
+    border: 1px solid #bebdbd;
+    border-left: none;
+  }
+  .box .end .accordion .bore {
+    background-color: #f2f2f2;
+    border: none;
+  }
+  .box .end .accordion .bore .bgend {
+    background-color: rgba(0, 0, 0, 0);
+    margin: 0;
+  }
+  .box .end .accordion .bore .bgend .mb-0 .BtnCss {
+    height: 50px;
+    padding: 10px 5px;
+    line-height: 36px;
+    margin-top: 16px;
+    border: none;
+    font-weight: 700;
+  }
+  .box .end .accordion .bore .bgend .mb-0 .BtnCss p {
+    font-size: 12px;
+  }
+  .box .end ul {
+    margin-top: 12px;
+  }
+  .box .end ul li {
+    height: 46px;
+    border-bottom: 1px solid #bebdbd;
+    display: block;
+  }
+  .box .end ul li a {
+    margin: 0 5px;
+    padding: 10px 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    line-height: 26px;
+    font-size: 14px;
+    color: #333;
+  }
+  .box .end .explainNavOne {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+  }
+  .box .end .explainNavOne a {
+    margin: 0px 10px;
+    font-size: 14px;
+    color: #333333;
+  }
+  .box .end .explainNavTwo {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+  }
+  .box .end .explainNavTwo a {
+    font-size: 30px;
+    color: #666666;
+    margin: 0 10px;
+  }
+  .box .putOnRecords {
+    background-color: #e6e6e6;
+    padding: 26px;
+  }
+  .box .putOnRecords p {
+    font-size: 12px;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  .box .putOnRecords div {
+    display: flex;
+    justify-content: center;
+  }
+  .box .putOnRecords div a {
+    font-size: 12px;
+    color: #333;
+  }
+  .box .putOnRecords .putOnRecordsTwo {
+    margin-bottom: 24px;
+  }
+  .box .putOnRecords .putOnRecordsThr a {
+    margin: 0 10px;
+  }
+}

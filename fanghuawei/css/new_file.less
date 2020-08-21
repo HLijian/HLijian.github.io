@@ -1,0 +1,652 @@
+@media screen and (min-width: 641px) {
+	.box {
+		display: none;
+	}
+	h1 {
+		margin-top: 100px;
+		display: block;
+		font-size: 40px;
+		font-weight: 700;
+		width: 100%;
+		color: #333333;
+		text-align: center;
+	}
+}
+
+@media screen and (max-width: 640px) {
+	h1 {
+		display: none;
+	}
+	.Fixed {
+		position: fixed;
+		bottom: 30px;
+		right: 0px;
+		z-index: 996;
+		p {
+			width: 40px;
+			height: 40px;
+		}
+		.service {
+			background-color: rgba(255, 0, 0, 0.5);
+			text-align: center;
+			line-height: 44px;
+			font-size: 34px;
+			color: white;
+			margin-bottom: 2px;
+		}
+
+		.returnTop {
+			background-color: rgba(0, 0, 0, 0.5);
+			text-align: center;
+			line-height: 44px;
+			font-size: 30px;
+			color: white;
+			opacity: 0;
+		}
+	}
+
+	.box {
+		max-width: 640px;
+		margin: 0 auto;
+		position: relative;
+		overflow: hidden;
+		min-width: 320px;
+		display: block;
+		.menuList {
+			background-color: #f8f8f8;
+			z-index: 997;
+			position: fixed;
+			left: 200%;
+			top: 0;
+			display: block;
+			margin-top: 56px;
+			width: 100%;
+			height: 100%;
+			padding: 15px;
+			padding-top: 30px;
+			transition: all 0.5s;
+			ul {
+				li {
+					width: 100%;
+					// float: left;
+					padding: 15px 0;
+					border-bottom: 1px solid #d4d4d4;
+					color: #333;
+					font-size: 14px;
+					font-weight: 700;
+					p {
+						float: right;
+						color: #333;
+					}
+				}
+			}
+			.menuListBottom {
+				width: 100%;
+				display: flex;
+				justify-content: center;
+				div {
+					width: 100%;
+					display: flex;
+					justify-content: center;
+					a {
+						float: left;
+						padding: 27px;
+						
+						p:nth-of-type(1) {
+							width: 48px;
+							height: 48px;
+							border-radius: 50%;
+							border: 1px solid #6d6d6d;
+							margin: 0 auto 6px;
+							
+							span {
+								display: block;
+								text-align: center;
+								line-height: 48px;
+								color: #333333;
+								font-size: 24px;
+							}
+						}
+						p:nth-of-type(2) {
+							
+							font-size: 14px;
+							color: #666666;
+							text-align: center;
+						}
+					}
+				}
+			}
+		}
+
+		header {
+			max-width: 640px;
+			width: 100%;
+			padding: 15px;
+			box-shadow: 0px -4px 12px rgba(0, 0, 0, 0.5);
+			position: fixed;
+			left: 0px;
+			top: 0;
+			background-color: white;
+			z-index: 998;
+			.headLeft {
+				width: 104px;
+
+				float: left;
+				.headLeftLog {
+					width: 100%;
+					object-fit: cover;
+				}
+			}
+			.headRight {
+				float: right;
+				a {
+					font-size: 1.5rem;
+					font-weight: 700;
+					margin-right: 15px;
+					line-height: 24px;
+				}
+				a:nth-of-type(1) {
+					margin-right: 15px;
+					color: #333;
+				}
+				a:nth-of-type(2) {
+					font-size: 1.5rem;
+					font-weight: 700;
+					margin-right: 15px;
+					color: #000;
+				}
+			}
+		}
+
+		.boxHome {
+			position: relative;
+		}
+		.slid {
+			width: 100%;
+			padding-top: 57px;
+			z-index: 1;
+			position: relative;
+			.make {
+				width: 100%;
+				height: 80px;
+				background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(0, 0, 0, 0.2));
+				position: absolute;
+				left: 0;
+				bottom: 0px;
+				z-index: 1;
+			}
+			.slide {
+				ol {
+					z-index: 100;
+					li {
+						z-index: 5;
+						float: left;
+						width: 10px;
+						height: 10px;
+						border-radius: 50%;
+						border: 1px solid white;
+						box-sizing: border-box;
+						margin: 14px;
+						background-color: rgba(0, 0, 0, 0);
+					}
+					.active {
+						background-color: white;
+					}
+				}
+
+				div {
+					.slidOne {
+						position: relative;
+						p {
+							width: 140px;
+							height: 26px;
+							border: 1px solid #111;
+							color: #111;
+							text-align: center;
+							font-size: 12px;
+							line-height: 24px;
+							position: absolute;
+							box-sizing: border-box;
+							left: 50%;
+							bottom: 14%;
+							margin-left: -140/2px;
+						}
+					}
+					.slidTwo {
+						position: relative;
+						p {
+							width: 140px;
+							height: 26px;
+							border: 1px solid #111;
+							color: #111;
+							text-align: center;
+							font-size: 12px;
+							line-height: 24px;
+							position: absolute;
+							box-sizing: border-box;
+							left: 50%;
+							top: 42%;
+							margin-left: -140/2px;
+						}
+					}
+				}
+			}
+		}
+
+		.figOne {
+			width: 100%;
+			margin-top: 31px;
+			padding: 15px;
+			.figOneNav {
+				display: flex;
+				justify-content: center;
+				position: relative;
+				h3 {
+					color: #333;
+					float: left;
+					font-size: 1.66rem;
+					font-weight: 600;
+				}
+				span {
+					width: 40px;
+					border-bottom: 2px solid rgb(199, 0, 11);
+					display: block;
+					position: absolute;
+					left: 50%;
+					top: 40px;
+					margin-left: -20px;
+				}
+			}
+			.slid {
+				width: 100%;
+				z-index: 1;
+				position: relative;
+				.make {
+					width: 100%;
+					height: 88.5%;
+					background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(0, 0, 0, 0.2));
+					position: absolute;
+					left: 0;
+					bottom: 0px;
+					z-index: 2;
+				}
+				.slide {
+					ol {
+						li {
+							z-index: 5;
+							float: left;
+							width: 10px;
+							height: 10px;
+							border-radius: 50%;
+							border: 1px solid white;
+							box-sizing: border-box;
+							margin: 14px;
+						}
+					}
+					div {
+						.slidThr {
+							position: relative;
+
+							.slidThrText {
+								position: absolute;
+								left: 15px;
+								bottom: 42px;
+								z-index: 3;
+								p {
+									font-size: 12px;
+									color: white;
+								}
+								h6 {
+									font-size: 18px;
+									font-weight: 700;
+									color: white;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+
+		.figTwo {
+			max-width: 640px;
+			width: 100%;
+			padding: 15px;
+			padding-top: 0px;
+			ul {
+				// width: 100%;
+				li {
+					display: flex;
+					flex: 1;
+					max-width: 610px;
+					width: 100%;
+					float: left;
+					a {
+						width: 100%;
+						img {
+							width: 100%;
+							float: left;
+						}
+						span {
+							width: 100%;
+							float: left;
+							padding: 15px;
+							background-color: #f5f5f5;
+							p {
+								font-size: 0.765rem;
+								color: #666666;
+							}
+							h5 {
+								padding: 4px 0px 0px 0px;
+								color: #333;
+								font-weight: 700;
+								font-size: 0.96rem;
+								height: 43.4px;
+							}
+						}
+					}
+					a:nth-of-type(1) {
+						margin-right: 15px;
+						margin-bottom: 15px;
+					}
+					a:nth-of-type(2) {
+						margin-bottom: 15px;
+					}
+					a:nth-of-type(3) {
+						margin-right: 15px;
+					}
+				}
+			}
+		}
+
+		.figThr {
+			max-width: 640px;
+			width: 100%;
+			margin-top: 20px;
+			position: relative;
+
+			img {
+				width: 100%;
+				object-fit: cover;
+			}
+			a {
+				position: absolute;
+				left: 0;
+				top: 0;
+				width: 100%;
+				height: 100%;
+			}
+		}
+
+		.figFour {
+			max-width: 640px;
+			width: 100%;
+			position: relative;
+			padding: 15px;
+
+			.figFourNav {
+				background-color: white;
+				display: flex;
+				justify-content: center;
+				position: relative;
+				padding: 32px 0;
+				h3 {
+					float: left;
+					font-size: 1.66rem;
+					font-weight: 600;
+					color: #333;
+				}
+				span {
+					width: 40px;
+					border-bottom: 2px solid rgb(199, 0, 11);
+					display: block;
+					position: absolute;
+					left: 50%;
+					bottom: 26px;
+					margin-left: -20px;
+				}
+			}
+
+			.figFourNavLog {
+				width: 100%;
+				position: relative;
+				height: 180px;
+				overflow: hidden;
+				margin-top: 20px;
+				img {
+					width: 100%;
+					position: absolute;
+					left: 0;
+					top: -28%;
+					z-index: -1;
+				}
+				p {
+					font-size: 16px;
+					color: white;
+					background-color: rgba(0, 0, 0, 0.3);
+					position: absolute;
+					left: 0px;
+					top: 0px;
+					text-align: center;
+					padding: 7px 20px;
+				}
+			}
+
+			.figFourCon {
+				width: 100%;
+				padding: 15px 15px 0px 15px;
+				background-color: #f8f8f8;
+				box-sizing: border-box;
+				.figFourConHead {
+					h6 {
+						font-weight: 700;
+						color: #333333;
+						font-size: 14px;
+					}
+					padding-top: 10px;
+					.figFourConEr {
+						margin-top: 14px;
+
+						p {
+							color: #333333;
+							float: left;
+							font-size: 16px;
+						}
+						p:nth-of-type(3) {
+							padding-left: 22px;
+						}
+						p:nth-of-type(2) {
+							font-size: 14px;
+							padding-left: 8px;
+						}
+						p:nth-of-type(4) {
+							font-size: 14px;
+							padding-left: 8px;
+						}
+					}
+					.figFourConText {
+						margin-top: 42px;
+						font-size: 12px;
+						padding-bottom: 15px;
+						color: #666666;
+					}
+				}
+			}
+
+			.figFour3 {
+				margin-top: 12px;
+				width: 100%;
+				background-color: #f8f8f8;
+				position: relative;
+				.figFourText {
+					position: absolute;
+					left: 0;
+					top: 0;
+					display: block;
+					background-color: rgba(0, 0, 0, 0.3);
+					padding: 7px 20px;
+				}
+				.figFour3Box {
+					padding: 64px 15px 0px 15px;
+					a {
+						display: block;
+
+						h3 {
+							font-size: 17px;
+							font-weight: 700;
+							color: #333;
+						}
+						p {
+							color: #666666;
+							font-size: 12px;
+							padding-bottom: 50px;
+						}
+					}
+				}
+			}
+			.figFourEnd {
+				display: flex;
+				justify-content: center;
+				margin-top: 32px;
+				.figFourEnda {
+					width: 140px;
+					height: 32px;
+					border: 1px solid #111;
+					text-align: center;
+					line-height: 32px;
+					margin: 0px 15px;
+					box-sizing: border-box;
+					color: #111111;
+					font-size: 12px;
+				}
+			}
+		}
+
+		.end {
+			width: 100%;
+			background-color: #f2f2f2;
+			padding: 15px;
+			margin-top: 22px;
+			.endNav {
+				display: flex;
+				padding-bottom: 16px;
+				width: 100%;
+				input {
+					background-color: white;
+					width: 100%;
+					height: 48px;
+					box-sizing: border-box;
+					float: left;
+					border: 1px solid #bebdbd;
+					border-right: none;
+					padding: 15px;
+					font-size: 16px;
+					color: #757575;
+				}
+				p {
+					background-color: white;
+					width: 48px;
+					height: 48px;
+					font-size: 26px;
+					color: #c4c1c1;
+					line-height: 48px;
+					text-align: center;
+					border: 1px solid #bebdbd;
+					border-left: none;
+				}
+			}
+
+			.accordion {
+				.bore {
+					background-color: #f2f2f2;
+					border: none;
+					.bgend {
+						background-color: rgba(0, 0, 0, 0);
+						margin: 0;
+						.mb-0 {
+							.BtnCss {
+								height: 50px;
+								padding: 10px 5px;
+								line-height: 36px;
+								margin-top: 16px;
+								border: none;
+								font-weight: 700;
+								p {
+									font-size: 12px;
+								}
+							}
+						}
+					}
+				}
+			}
+			ul {
+				margin-top: 12px;
+
+				li {
+					height: 46px;
+
+					border-bottom: 1px solid #bebdbd;
+					display: block;
+					a {
+						margin: 0 5px;
+						padding: 10px 0;
+						display: block;
+						width: 100%;
+						height: 100%;
+						line-height: 26px;
+						font-size: 14px;
+						color: #333;
+					}
+				}
+			}
+			.explainNavOne {
+				width: 100%;
+				display: flex;
+				justify-content: center;
+				margin-top: 40px;
+				a {
+					margin: 0px 10px;
+					font-size: 14px;
+					color: #333333;
+				}
+			}
+			.explainNavTwo {
+				margin-top: 40px;
+				display: flex;
+				justify-content: center;
+				a {
+					font-size: 30px;
+					color: #666666;
+					margin: 0 10px;
+				}
+			}
+		}
+		.putOnRecords {
+			background-color: #e6e6e6;
+			padding: 26px;
+			p {
+				font-size: 12px;
+				color: #333;
+				display: flex;
+				justify-content: center;
+				margin-bottom: 10px;
+			}
+			div {
+				display: flex;
+				justify-content: center;
+				a {
+					font-size: 12px;
+					color: #333;
+				}
+			}
+			.putOnRecordsTwo {
+				margin-bottom: 24px;
+			}
+			.putOnRecordsThr {
+				a {
+					margin: 0 10px;
+				}
+			}
+		}
+	}
+}

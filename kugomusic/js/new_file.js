@@ -64,7 +64,8 @@ $(function() {
 
 
 	// 播放时触发的事件
-	Audioes[0].oncanplay = function() {
+	Audioes[Audioes.length-1].oncanplay = function() {
+		
 		fz();
 		Audioes[sum].ontimeupdate = function() {
 			currentTimes = this.currentTime;
@@ -105,7 +106,7 @@ $(function() {
 				}
 			}
 		}
-	}
+	
 
 	//点击后切换相应的歌曲
 	$('#list li').on('click', function() {
@@ -309,5 +310,5 @@ $(function() {
 		lis[sum].style.backgroundColor = '#f2f2f2';
 	})
 
-
+}
 })

@@ -6,6 +6,62 @@
   "description": "",
   "glyphs": [
     {
+      "icon_id": "1535663",
+      "name": "聊天",
+      "font_class": "liaotian",
+      "unicode": "e60e",
+      "unicode_decimal": 58894
+    },
+    {
+      "icon_id": "2238661",
+      "name": "发现",
+      "font_class": "faxian",
+      "unicode": "e60a",
+      "unicode_decimal": 58890
+    },
+    {
+      "icon_id": "5657677",
+      "name": "返回顶部",
+      "font_class": "fanhuidingbu",
+      "unicode": "e61c",
+      "unicode_decimal": 58908
+    },
+    {
+      "icon_id": "6426747",
+      "name": "保障",
+      "font_class": "baozhang",
+      "unicode": "e710",
+      "unicode_decimal": 59152
+    },
+    {
+      "icon_id": "10205830",
+      "name": "点击",
+      "font_class": "dianji",
+      "unicode": "e611",
+      "unicode_decimal": 58897
+    },
+    {
+      "icon_id": "12133760",
+      "name": "用户",
+      "font_class": "yonghu",
+      "unicode": "e668",
+      "unicode_decimal": 58984
+    },
+    {
+      "icon_id": "12575732",
+      "name": "电脑",
+      "font_class": "diannao",
+      "unicode": "e609",
+      "unicode_decimal": 58889
+    },
+    {
+      "icon_id": "15175971",
+      "name": "购物 车",
+      "font_class": "gouwuche",
+      "unicode": "e62e",
+      "unicode_decimal": 58926
+    },
+    {
       "icon_id": "7424275",
       "name": "手机",
       "font_class": "shouji1",

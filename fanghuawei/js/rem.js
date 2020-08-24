@@ -6,7 +6,13 @@
  */
 
 
-
+var w = $(window).width();
+	if (w <= 640&&w>=320) {
+		var size = 16 * (w / 640);
+		$('html').css('fontSize', size + 'px');
+	}else if(w>640){
+		$('html').css('fontSize','16px');
+	}
 
 window.onresize = window.onload = function() {
 	var w = $(window).width();

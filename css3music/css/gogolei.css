@@ -1,0 +1,34 @@
+*{
+	margin: 0px;
+}
+a{
+text-decoration: none;		
+	
+}
+dd,dt,dl{
+	list-style: none;
+	padding: 0px;
+}
+ul,li, 
+ol {
+	list-style: none;
+	padding: 0px;
+	position: relative;
+}
+.clearfix:after {
+	content: "";
+	display: block;
+	clear: both;
+	height: 0px;
+	line-height: 0px;
+	visibility: hidden;
+}
+input {
+	background: none;
+	outline: none; 
+	padding: 0px;
+	margin: 0px;	
+}
+span,p{
+	cursor:default;
+}

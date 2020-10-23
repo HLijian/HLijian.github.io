@@ -1,0 +1,277 @@
+body {
+  background-color: #1d1d1d;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+body .mask {
+  width: 100%;
+  height: 100%;
+  float: left;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 5;
+  display: none;
+  cursor: pointer;
+}
+body .box_volumeMask {
+  width: 100%;
+  height: 100%;
+  float: left;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 5;
+  display: none;
+  cursor: pointer;
+}
+body .box {
+  width: 550px;
+  float: left;
+}
+body .box .box_topHz {
+  width: 550px;
+  height: 180px;
+  border-radius: 12px;
+  position: relative;
+}
+body .box .box_topHz .box_topHzbaLogo {
+  width: 550px;
+  height: 100%;
+  float: left;
+  background-image: url(../images/One.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: blur(30px) brightness(0.8) contrast(1.2);
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -1;
+}
+body .box .box_topHz .box_topHzLeft {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  background-image: url(../images/ba.png);
+  background-repeat: no-repeat;
+  float: left;
+  background-size: 100%;
+  position: relative;
+  margin: 25px;
+  animation-timing-function: linear;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+}
+@-webkit-keyframes mymove {
+  /* Safari and Chrome */
+  from {
+    transform: rotateZ(0deg);
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+body .box .box_topHz .box_topHzLeft img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-top: -40px;
+  margin-left: -40px;
+}
+body .box .box_topHz .box_topCenter {
+  width: 10px;
+  height: 100%;
+  float: left;
+  position: relative;
+}
+body .box .box_topHz .box_topCenter .box_topCenterimg {
+  position: absolute;
+  left: -38px;
+  top: 3px;
+}
+body .box .box_topHz .box_topCenter .box_topCenterimg img {
+  width: 25px;
+  height: 100%;
+  margin-top: 25px;
+  transform-origin: top left;
+  transform-origin: 14px 7px;
+  transform: rotateZ(-15deg);
+  transition: all 0.4s;
+}
+body .box .box_topHz .box_topHzRight {
+  flex: 1;
+}
+body .box .box_topHz .box_topHzRight h3 {
+  width: 100%;
+  margin-top: 28px;
+  margin-bottom: 10px;
+  color: white;
+}
+body .box .box_topHz .box_topHzRight p {
+  color: white;
+  font-size: 14px;
+}
+body .box .box_topHz .box_topHzRight .box_topHzRightbf {
+  width: 360px;
+  height: 16px;
+  margin-top: 14px;
+  margin-bottom: 18px;
+  float: right;
+}
+body .box .box_topHz .box_topHzRight .box_topHzRightbf i {
+  color: white;
+  margin-right: 14px;
+  float: left;
+  cursor: pointer;
+}
+body .box .box_topHz .box_topHzRight .box_topHzRightbf .box_topPause {
+  font-size: 12px;
+  line-height: 16px;
+  display: none;
+}
+body .box .box_topHz .box_topHzRight .box_topHzRightbf .box_topPlay {
+  width: 10.3px;
+  font-size: 24px;
+  line-height: 16px;
+}
+body .box .box_topHz .box_topHzRight .box_topHzRightbf .oneOrder {
+  display: none;
+  position: relative;
+}
+body .box .box_topHz .box_topHzRight .box_topHzRightbf .oneOrder div {
+  position: absolute;
+  left: 4px;
+  top: 4px;
+  font-size: 4px;
+  font-weight: 100;
+}
+body .box .box_topHz .box_topHzRight .box_topHzRightbf .shufflePlay {
+  display: none;
+}
+body .box .box_topHz .box_topHzRight .box_topHzRightbf .box_volume {
+  float: right;
+  margin-right: 30px;
+}
+body .box .box_topHz .box_topHzRight .box_topHzRightbf .box_volume i {
+  float: left;
+  margin-right: 6px;
+}
+body .box .box_topHz .box_topHzRight .box_topHzRightbf .box_volume .volumeJDT {
+  float: left;
+  width: 88px;
+  height: 6px;
+  background-color: rgba(0, 0, 0, 0.6);
+  margin-top: 5px;
+  border-radius: 3px;
+  position: relative;
+  cursor: pointer;
+}
+body .box .box_topHz .box_topHzRight .box_topHzRightbf .box_volume .volumeJDT .volumeJDTOne {
+  width: 88px;
+  height: 100%;
+  border-radius: 3px;
+  background: #0cb6d4;
+  cursor: pointer;
+}
+body .box .box_topHz .box_topHzRight .box_topHzRightbf .box_volume .volumeJDT .volumeDian {
+  width: 8px;
+  height: 6px;
+  border-radius: 3px;
+  position: absolute;
+  left: 85px;
+  top: 0;
+  background-color: white;
+  cursor: pointer;
+}
+body .box .box_topHz .box_topHzRight .progressBarOne {
+  width: 330px;
+  height: 6px;
+  background-color: rgba(0, 0, 0, 0.5);
+  float: right;
+  margin-right: 30px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+body .box .box_topHz .box_topHzRight .progressBarOne .ArticleOnThe {
+  width: 0px;
+  height: 100%;
+  border-radius: 3px;
+  float: left;
+  background: #0cb6d4;
+  position: relative;
+  cursor: pointer;
+}
+body .box .box_topHz .box_topHzRight .progressBarOne .ArticleOnThe .progressBarDing {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 8px;
+  height: 6px;
+  background-color: white;
+  border-radius: 3px;
+  cursor: pointer;
+}
+body .box .box_topHz .box_topHzRight .timeLeft {
+  background-color: rgba(0, 0, 0, 0.3);
+  float: left;
+  border-radius: 10px;
+  padding: 0px 5px;
+  text-align: center;
+  font-size: 12px;
+  margin-top: 6px;
+  color: white;
+}
+body .box .box_topHz .box_topHzRight .timeRight {
+  background-color: rgba(0, 0, 0, 0.5);
+  float: right;
+  border-radius: 10px;
+  padding: 0px 5px;
+  margin-top: 10px;
+  font-size: 12px;
+  margin-right: 30px;
+  color: white;
+}
+body .box .box_bottom {
+  width: 550px;
+  height: 98px;
+  background-color: rgba(0, 0, 0, 0.9);
+  border-radius: 10px;
+  margin-top: 50px;
+}
+body .box .box_bottom .box_bottomHz ul {
+  margin-top: 4px;
+  float: left;
+}
+body .box .box_bottom .box_bottomHz ul li {
+  padding: 4px 10px;
+}
+body .box .box_bottom .box_bottomHz ul li div {
+  float: left;
+  margin-right: 16px;
+  margin-top: 4px;
+  width: 16px;
+  height: 16px;
+}
+body .box .box_bottom .box_bottomHz ul li div i {
+  color: white;
+}
+body .box .box_bottom .box_bottomHz ul li p {
+  color: white;
+  cursor: pointer;
+  float: left;
+}
+body .box .box_bottom .box_bottomHz ul li:nth-of-type(1) div i {
+  display: block;
+}
+body .box .box_bottom .box_bottomHz ul li:nth-of-type(2) div i {
+  display: none;
+}
+body .box .box_bottom .box_bottomHz ul li:nth-of-type(3) div i {
+  display: none;
+}

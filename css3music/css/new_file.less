@@ -1,0 +1,307 @@
+body {
+	background-color: rgb(29, 29, 29);
+	display: flex;
+	height: 100vh;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	.mask {
+		width: 100%;
+		height: 100%;
+		float: left;
+		// background-color: black;
+		position: absolute;
+		top: 0;
+		left: 0;
+		z-index: 5;
+		display: none;
+		cursor: pointer;
+	}
+	.box_volumeMask {
+		width: 100%;
+		height: 100%;
+		float: left;
+		// background-color: black;
+		position: absolute;
+		top: 0;
+		left: 0;
+		z-index: 5;
+		display: none;
+		cursor: pointer;
+	}
+	.box {
+		width: 550px;
+		float: left;
+
+		.box_topHz {
+			width: 550px;
+			height: 180px;
+			// overflow: hidden;
+			border-radius: 12px;
+			position: relative;
+			.box_topHzbaLogo {
+				width: 550px;
+				height: 100%;
+				float: left;
+				background-image: url(../images/One.jpg);
+				background-repeat: no-repeat;
+				background-size: cover;
+				filter: blur(30px) brightness(0.8) contrast(1.2);
+				position: absolute;
+				left: 0;
+				top: 0;
+				z-index: -1;
+			}
+			.box_topHzLeft {
+				width: 130px;
+				height: 130px;
+				border-radius: 50%;
+				background-image: url(../images/ba.png);
+				background-repeat: no-repeat;
+				float: left;
+				background-size: 100%;
+				position: relative;
+				margin: 25px;
+				animation-timing-function: linear;
+				animation-duration: 6s;
+				animation-iteration-count: infinite;
+				// animation-name:mymove;
+				@-webkit-keyframes mymove /* Safari and Chrome */ {
+					from {
+						transform: rotateZ(0deg);
+					}
+					to {
+						transform: rotateZ(360deg);
+					}
+				}
+				img {
+					width: 80px;
+					height: 80px;
+					border-radius: 50%;
+					position: absolute;
+					left: 50%;
+					top: 50%;
+					margin-top: -40px;
+					margin-left: -40px;
+				}
+			}
+			
+			.box_topCenter {
+				width: 10px;
+				height: 100%;
+				float: left;
+				position: relative;
+				.box_topCenterimg {
+					position: absolute;
+					left: -38px;
+					top: 3px;
+
+					img {
+						width: 25px;
+						height: 100%;
+						margin-top: 25px;
+						transform-origin: top left;
+						transform-origin: 14px 7px;
+						transform: rotateZ(-15deg);
+						transition: all 0.4s;
+					}
+				}
+			}
+
+			.box_topHzRight {
+				flex: 1;
+				h3 {
+					width: 100%;
+					margin-top: 28px;
+					margin-bottom: 10px;
+					color: white;
+				}
+				p {
+					color: white;
+					font-size: 14px;
+				}
+				.box_topHzRightbf {
+					width: 360px;
+					height: 16px;
+					// background-color: white;
+					margin-top: 14px;
+					margin-bottom: 18px;
+					float: right;
+
+					i {
+						color: white;
+						margin-right: 14px;
+						float: left;
+						cursor: pointer;
+					}
+					.box_topPause {
+						font-size: 12px;
+						line-height: 16px;
+						display: none;
+					}
+					.box_topPlay {
+						width: 10.3px;
+						font-size: 24px;
+						line-height: 16px;
+					}
+					.oneOrder {
+						display: none;
+						position: relative;
+						div {
+							position: absolute;
+							left: 4px;
+							top: 4px;
+							font-size: 4px;
+							font-weight: 100;
+						}
+					}
+
+					.shufflePlay {
+						display: none;
+					}
+					
+					.box_volume{
+						float: right;
+						margin-right: 30px;
+						i{
+							float: left;
+							margin-right: 6px;
+						}
+						.volumeJDT{
+							float: left;
+							width: 88px;
+							height: 6px;
+							background-color: rgba(0,0,0,0.6);
+							margin-top: 5px;
+							border-radius: 3px;
+							position: relative;
+							cursor: pointer;
+							.volumeJDTOne{
+								width: 88px;
+								height: 100%;
+								border-radius: 3px;
+								background: rgb(12, 182, 212);
+								cursor: pointer;
+							}
+							.volumeDian{
+								width: 8px;
+								height: 6px;
+								border-radius: 3px;
+								position: absolute;
+								left: 85px;
+								top: 0;
+								background-color: white;
+								cursor: pointer;
+							}
+						}
+					}
+				}
+
+				.progressBarOne {
+					width: 330px;
+					height: 6px;
+					background-color: rgba(0, 0, 0, 0.5);
+					float: right;
+					margin-right: 30px;
+					border-radius: 3px;
+					cursor: pointer;
+					.ArticleOnThe {
+						width: 0px;
+						height: 100%;
+						border-radius: 3px;
+						float: left;
+						background: rgb(12, 182, 212);
+						position: relative;
+						cursor: pointer;
+						.progressBarDing {
+							position: absolute;
+							left: 0;
+							top: 0;
+							width: 8px;
+							height: 6px;
+							background-color: white;
+							border-radius: 3px;
+							cursor: pointer;
+						}
+					}
+				}
+				.timeLeft {
+					background-color: rgba(0, 0, 0, 0.3);
+					float: left;
+					border-radius: 10px;
+					padding: 0px 5px;
+					text-align: center;
+					font-size: 12px;
+					margin-top: 6px;
+					color: white;
+				}
+				.timeRight {
+					background-color: rgba(0, 0, 0, 0.5);
+					float: right;
+					border-radius: 10px;
+					padding: 0px 5px;
+					margin-top: 10px;
+					font-size: 12px;
+					margin-right: 30px;
+					color: white;
+				}
+			}
+		}
+		.box_bottom {
+			width: 550px;
+			height: 98px;
+			background-color: rgba(0, 0, 0, 0.9);
+			border-radius: 10px;
+			margin-top: 50px;
+			.box_bottomHz {
+				ul {
+					margin-top: 4px;
+					float: left;
+					li {
+						// float: left;
+
+						padding: 4px 10px;
+						div {
+							float: left;
+							margin-right: 16px;
+							margin-top: 4px;
+							width: 16px;
+							height: 16px;
+							i {
+								color: white;
+							}
+						}
+
+						p {
+							color: white;
+							cursor: pointer;
+							float: left;
+						}
+					}
+					li:nth-of-type(1) {
+						div {
+							i {
+								display: block;
+							}
+						}
+					}
+					li:nth-of-type(2) {
+						div {
+							i {
+								display: none;
+							}
+						}
+					}
+
+					li:nth-of-type(3) {
+						div {
+							i {
+								display: none;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
